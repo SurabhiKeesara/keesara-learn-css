@@ -1,6 +1,18 @@
 div {
   width: 100px;
   height: 100px;
-  overflow: visible;
   border: 1px solid red;
+  margin: 25px;
+}
+
+div.scroll {
+  overflow: scroll;
+}
+
+div.hidden {
+  overflow: hidden;
+}
+
+div.visible {
+  overflow: visible;
 }

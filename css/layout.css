@@ -19,14 +19,14 @@ body {
 /* Navbar links */
 .topnav a {
   display: inline-block;
-  color: white;
+  color: white; /* text color */
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /* no underline */
 }
 
 /* Links - change color on hover */
-.topnav a:hover {
+.topnav a:hover { /* on a(links), when hover action */
   background-color: #ddd;
   color: blue;
 }
@@ -35,6 +35,7 @@ body {
   float: left;
 } */
 
+/* table - all in purple */
 .main {
   width: 100%;
   margin: 20px 0;
@@ -53,8 +54,9 @@ body {
 }
 
 .footer {
-   position: fixed;
-   bottom: 5px;
+   position: fixed; /* define as footer */
+   /* absolute: relative to parent, not document (if also absolute in parent) */
+   bottom: 5px; /* 5 pixels from bottom of screen (document, not parent) */
    width: 100%;
    background-color: lightgreen;
    color: black;
@@ -62,6 +64,7 @@ body {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
     width: 100%;
