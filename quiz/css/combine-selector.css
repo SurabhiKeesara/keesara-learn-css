@@ -7,7 +7,16 @@ body {
     text-align: center;
   }
 
+  p.main {
+    color: red
+  }
+
   p {
-    font-size: 3em;
+    font-size: 3em; /* Scale font size based on pixels*/
     font-style: italic;
+    color: blue /* Will get overridden by class specific rules, regardless of order*/
+  }
+
+  p.sub {
+    color: green
   }

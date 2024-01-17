@@ -6,7 +6,7 @@ body {
     color: blue;
     text-align: center;
   }
-  
+  /* For all p tags, use the following styles */
   p {
     color: red;
     font-size: 20px;
